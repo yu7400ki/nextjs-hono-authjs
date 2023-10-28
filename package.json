@@ -13,10 +13,12 @@
     "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-date=2023-10-25 --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
-    "@types/node": "20.8.8",
-    "@types/react": "18.2.32",
+    "@types/node": "20.8.9",
+    "@types/react": "18.2.33",
     "@types/react-dom": "18.2.14",
-    "next": "13.5.6",
+    "hono": "^3.9.0",
+    "next": "14.0.0",
+    "next-auth": "^5.0.0-beta.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.2.2"
